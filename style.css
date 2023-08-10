@@ -1,0 +1,57 @@
+html, body {
+    display: grid;
+
+}
+
+#maindiv {
+    height: 400px;
+    width: 300px;
+    background-color:rgb(139, 139, 139);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 4px groove black;
+
+
+}
+.display {
+    height: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 5px;
+    
+    
+}
+.number {
+    height: 70px;
+    text-align: end;
+    padding-right: 15px;
+
+    background-color: rgb(206, 206, 206);
+    border: 4px groove black;
+    border-radius: 20px;
+    
+
+}
+.buttons {
+    height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+    
+    
+}
+button {
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 3px;
+    border: 3px groove black
+    
+    
+}
+button:hover {
+    background-color: rgb(233, 139, 62);
+}
